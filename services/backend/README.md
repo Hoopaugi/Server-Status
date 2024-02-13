@@ -7,6 +7,29 @@ Express API for the server status app.
 - Express as the backbone
 - Mongoose used to interface with MongoDB
 
+## Commands
+
+Build project
+
+    npm run build
+
+Run in development mode
+
+    npm run start:dev
+
+
+Run in production mode
+
+    npm run start:prod
+
+## .env
+
+Environmental variables
+
+|Variable|Required|Default|Description|
+|-|-|-|-|
+|PORT||5000|Port the backend runs on|
+
 ## API
 
 |Method|Endpoint|Description|
