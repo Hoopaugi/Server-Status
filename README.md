@@ -9,3 +9,4 @@ Dashboard to show server status information
 - MongoDB as the database
 - Each service running as a docker container
 - nginx to route traffic
+- Typescript used at least for the backend
