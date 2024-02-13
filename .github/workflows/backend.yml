@@ -1,0 +1,24 @@
+name: Backend CI
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ./services/backend
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Use latest Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 'latest'
+        cache: 'npm'
+
+    - run: npm ci
+    - run: npm lint
