@@ -9,18 +9,13 @@ Express API for the server status app.
 
 ## Commands
 
-Build project
-
-    npm run build
-
-Run in development mode
-
-    npm run start:dev
-
-
-Run in production mode
-
-    npm run start:prod
+|Command|Description|
+|-|-|
+|`npm run build`|Build project|
+|`npm run start:dev`|Start in development mode|
+|`npm run start:prod`|Start in production mode|
+|`npm run lint`|Lint project|
+|`npm run lint:fix`|Lint project and fix problems|
 
 ## .env
 
