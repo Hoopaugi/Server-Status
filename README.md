@@ -2,6 +2,24 @@
 
 Dashboard to show server status information
 
+## Before pushing:
+
+Lint and fix any problems
+
+    npm run lint
+
+To merge all workflows have to pass
+
+## Setup
+
+Install backend dependencies. Inside `services/backend` run
+
+    npm install
+
+Start in development mode
+
+    docker compose up
+
 ## Stack
 
 - Express backend
